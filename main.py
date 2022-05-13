@@ -40,13 +40,13 @@ def main():
             for final_prouduct in rec_pro[1:4].index:
                 list1.append(final_prouduct)
             with col1:
-                st.write(list1[0])
+                st.success(list1[0])
 
             with col2:
-                st.write(list1[1])
+                st.success(list1[1])
 
             with col3:
-                st.write(list1[2])
+                st.success(list1[2])
         else:
             st.write("User not found!")
 
